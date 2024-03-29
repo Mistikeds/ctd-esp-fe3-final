@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useContextGlobal } from "../Components/utils/global.context";
 
+
+
 const Detail = () => {
   const { state, dispatch } = useContextGlobal();
   const { doctorSelected } = state;

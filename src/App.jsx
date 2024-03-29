@@ -16,10 +16,10 @@ return (
     <Navbar/>
     <Routes>
       <Route path={routes.home} element={<Home/>}/>
-      <Route path={routes.contact} element={<Contact/>}/>
-      <Route path={routes.detail} element={<Detail/>}/>
       <Route path={routes.favs} element={<Favs/>}/>
-      <Route path="*" element={<h1>Página no encontrada. ERROR 404</h1>} />
+      <Route path={routes.detail} element={<Detail/>}/>
+      <Route path={routes.contact} element={<Contact/>}/>
+      <Route path="*" element={<h1>No encontramos la pagina que estas buscando!</h1>} />
     </Routes>
     <Footer/>
   </div>

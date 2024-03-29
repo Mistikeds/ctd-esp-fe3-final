@@ -5,7 +5,7 @@ import axios from 'axios'
 export const initialState = {themes:{
   light: {
       font: 'black',
-      background: '#e4f4fd'
+      background: '#f0e6f2'
   },
   dark: {
       font: 'white',
