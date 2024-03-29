@@ -16,7 +16,8 @@ return (
     <img src="./public/DH.ico" alt="" className="logo"/>
     <div className="links-nav">
       <MyLink to={routes.home} name={"Home"}/>
-      
+      <MyLink to={routes.contact} name={"Contact"}/>
+      <MyLink to={routes.favs} name={"Favs"}/>
     </div>
     <button className="metallic-button"
       style={{background: theme.background, color: theme.font }}
